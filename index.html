@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Gift Store - Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#login">Login</a>
+      <a href="#signup">Sign Up</a>
+      <a href="#about-tags">About Tags</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="home">
+      <h1>Welcome to Simple Gift Store</h1>
+      <p>This is a basic website for assignment with simple design and easy code.</p>
+      <div class="tag-note">
+        <strong>Tag info:</strong> We use <code>&lt;header&gt;</code> for top menu, <code>&lt;nav&gt;</code> for links, and <code>&lt;main&gt;</code> for main content area.
+      </div>
+    </section>
+
+    <section id="products">
+      <h2>Gift Products</h2>
+      <p>These are sample products shown in cards.</p>
+
+      <div class="products-grid">
+        <article class="product-card">
+          <h3>Teddy Bear</h3>
+          <p>Soft and cute gift</p>
+          <p><strong>Price:</strong> $15</p>
+        </article>
+        <article class="product-card">
+          <h3>Flower Bouquet</h3>
+          <p>Fresh mixed flowers</p>
+          <p><strong>Price:</strong> $20</p>
+        </article>
+        <article class="product-card">
+          <h3>Chocolate Box</h3>
+          <p>Assorted chocolates</p>
+          <p><strong>Price:</strong> $12</p>
+        </article>
+        <article class="product-card">
+          <h3>Greeting Card</h3>
+          <p>Personal message card</p>
+          <p><strong>Price:</strong> $5</p>
+        </article>
+      </div>
+
+      <div class="tag-note">
+        <strong>Tag info:</strong> We use <code>&lt;section&gt;</code> to divide page parts, <code>&lt;article&gt;</code> for each product card, and <code>&lt;h2&gt;/&lt;h3&gt;</code> for headings.
+      </div>
+    </section>
+
+    <section id="login">
+      <h2>Login</h2>
+      <p>Enter your account details to login.</p>
+
+      <form id="loginForm">
+        <label for="loginEmail">Email</label>
+        <input id="loginEmail" type="email" placeholder="Enter email" required>
+
+        <label for="loginPassword">Password</label>
+        <input id="loginPassword" type="password" placeholder="Enter password" required>
+
+        <button type="submit">Login</button>
+      </form>
+      <p id="loginMsg" class="msg"></p>
+
+      <div class="tag-note">
+        <strong>Tag info:</strong> We use <code>&lt;form&gt;</code> to collect data, <code>&lt;label&gt;</code> for input names, <code>&lt;input&gt;</code> for user text, and <code>&lt;button&gt;</code> to submit.
+      </div>
+    </section>
+
+    <section id="signup">
+      <h2>Sign Up</h2>
+      <p>Create a new account with simple details.</p>
+
+      <form id="signupForm">
+        <label for="signupName">Full Name</label>
+        <input id="signupName" type="text" placeholder="Enter name" required>
+
+        <label for="signupEmail">Email</label>
+        <input id="signupEmail" type="email" placeholder="Enter email" required>
+
+        <label for="signupPassword">Password</label>
+        <input id="signupPassword" type="password" placeholder="Create password" required>
+
+        <button type="submit">Sign Up</button>
+      </form>
+      <p id="signupMsg" class="msg"></p>
+
+      <div class="tag-note">
+        <strong>Tag info:</strong> We use <code>&lt;input type="email"&gt;</code> for email validation and <code>required</code> attribute so fields cannot stay empty.
+      </div>
+    </section>
+
+    <section id="about-tags">
+      <h2>Why CSS and JavaScript?</h2>
+      <p><strong>CSS:</strong> used for colors, spacing, layout, and styling to make page look clean.</p>
+      <p><strong>JavaScript:</strong> used to handle login/signup form submit and show messages without reloading page.</p>
+      <div class="tag-note">
+        <strong>Tag info:</strong> We use <code>&lt;script&gt;</code> for behavior, and <code>&lt;footer&gt;</code> for ending information of the page.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Simple Gift Store Assignment Project
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
