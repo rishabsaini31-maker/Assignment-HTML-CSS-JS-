@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - EasyCart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>EasyCart</h1>
+    <nav>
+      <a href="index.html#home">Home</a>
+      <a href="index.html#products">Products</a>
+      <a href="index.html#cart">Cart</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+      <a href="index.html#about">About</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="auth-wrap">
+      <h2>Login Page</h2>
+      <p>Enter your email and password.</p>
+      <form id="loginForm">
+        <label for="loginEmail">Email</label>
+        <input id="loginEmail" type="email" required>
+
+        <label for="loginPassword">Password</label>
+        <input id="loginPassword" type="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+      <p id="loginMsg" class="auth-msg"></p>
+    </section>
+  </main>
+
+  <footer>
+    EasyCart Assignment Prototype
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
